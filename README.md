@@ -15,12 +15,13 @@ Open your terminal and run the following commands:
 
 ```bash
 # Step 1: Deploy the Dashboard
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.3.1/aio/deploy/recommended.yaml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
 
 # Step 2: Access the Dashboard by starting the proxy
 kubectl proxy
 
 # Note: After starting the proxy, you can access the dashboard at the following URL:
+
 # http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 
 # Step 3: Authenticate to the Dashboard by creating a service account and getting the token
