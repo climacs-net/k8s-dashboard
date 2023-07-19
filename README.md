@@ -21,8 +21,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/a
 kubectl proxy
 
 # Note: After starting the proxy, you can access the dashboard at the following URL:
-
-# http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 
 # Step 3: Authenticate to the Dashboard by creating a service account and getting the token
 
